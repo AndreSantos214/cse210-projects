@@ -58,7 +58,7 @@ public class Order
     string packingLabel = "PACKING LABEL: \n=====================\n";
     foreach (Product product in _products)
     {
-      packingLabel += $"Product: {product.GetName()} (ID: '{product.GetProductId()}')\n";
+      packingLabel += $"Product: {product.GetName()} (ID: '{product.GetProductId()}') - ${product.GetPrice()} X {product.GetQuantity()}\n";
     }
     return packingLabel;
   }

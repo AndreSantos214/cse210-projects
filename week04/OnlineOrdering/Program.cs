@@ -9,7 +9,7 @@ class Program
         Address address1 = new Address("123 Main Street", "New York", "NY", "USA");
         Customer customer1 = new Customer("John Smith", address1);
 
-        Product product1 = new Product("Laptop", "NB001", 1200.00, 1);
+        Product product1 = new Product("Laptop", "NB001", 1170.00, 1);
         Product product2 = new Product("Mouse", "MS001", 25.00, 2);
         Product product3 = new Product("Keyboard", "KB001", 80.00, 1);
 
