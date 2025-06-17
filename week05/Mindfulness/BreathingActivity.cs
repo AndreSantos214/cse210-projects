@@ -9,13 +9,15 @@ public class BreathingActivity : Activity
   private void ShowBreathingAnimation(string action, int duration)
   {
     int steps = 20;
+    int totalMilliseconds = duration * 1000;
+    int sleepPerStep = totalMilliseconds / steps;
+
     for (int i = 1; i <= steps; i++)
     {
       double progress = (double)i / steps;
-      double delay = 0.05 + 0.15 * progress;
       int width = (int)(progress * 20);
-      Console.Write("\r" + action + new string('.', width) + "   ");
-      Thread.Sleep((int)(delay * 1000));
+      Console.Write("\r" + action + new string('.', width));
+      Thread.Sleep(sleepPerStep);
     }
     Console.WriteLine();
   }
