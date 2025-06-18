@@ -1,0 +1,6 @@
+5554
+6
+ChecklistGoal:BYU,BYU,2,2,2,50
+SimpleGoal:Ler Escritura,Escritura,500,True
+EternalGoal:Ir na Igreja,Ir na Igreja,600
+ChecklistGoal:Assistir,Assistir,100,0,50,50
