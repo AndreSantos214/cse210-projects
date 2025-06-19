@@ -25,6 +25,6 @@ class Cycling : Activity
 
   public override string GetSummary()
   {
-    return $"{GetDate()} Cycling ({GetMinutes()} min) - Distance: {GetDistance().ToString("0.0")} miles, Speed: {_speed.ToString("0.0")} mph, Pace {GetPace().ToString("0.0")} min per mile";
+    return $"{GetDate()} Cycling ({GetMinutes()} min) - Distance: {GetDistance().ToString("0.0")} miles, Speed: {_speed.ToString("0.0")} mph, Pace: {GetPace().ToString("0.0")} min per mile";
   }
 }
